@@ -1,0 +1,474 @@
+.makeup-care {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.other-buy {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+
+.other-detail {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 140%;
+    color: #9A711A;
+}
+
+.price-value {
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 140%;
+    color: #261D1D;
+}
+
+
+@media (max-width:$tablet-width) {
+    .set-number {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        color: #9A711A;
+        text-align: left;
+        margin: 0px;
+        padding: 14px 0px 0px 4px;
+    }
+
+    .set-title {
+        font-family: 'Lora';
+        font-size: 20px;
+        line-height: 140%;
+        color: #261D1D;
+        padding-top: 5px;
+        margin: 0px;
+    }
+
+    .set-depiction {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 140%;
+        color: #261D1D;
+        width: 311px;
+        text-align: left;
+        padding: 0px 0px 0px 4px;
+    }
+
+    .wrap .swiper-care {
+        flex-flow: wrap;
+        height: 100%;
+        background: linear-gradient(315.08deg, #F8F1E3 -14.7%, rgba(255, 255, 255, 0) 113.55%), #E8C375;
+        padding-bottom: 58px;
+    }
+
+    .wrap {
+        position: relative;
+
+        &::before {
+            content: 'НАБОРЫ';
+            position: absolute;
+            font-family: 'Lora';
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 120%;
+            color: rgba(248, 241, 227, 0.5);
+            top: -89px;
+            left: 47px;
+        }
+    }
+
+    .sets {
+        background: linear-gradient(315.08deg, #F8F1E3 -14.7%, rgba(255, 255, 255, 0) 113.55%), #E8C375;
+        margin-top: 129px;
+        position: relative;
+    }
+
+    .swiper-container .swiper-next {
+        top: 13%;
+    }
+
+    .swiper-container .swiper-prev {
+        top: 13%;
+    }
+
+    .cosmetics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 22px 0px 0px 0px;
+    }
+
+    .cosmetics-cream {
+        width: 103px;
+    }
+
+    .cosmetics-mask {
+        width: 109px;
+    }
+
+    .cosmetics-scrub {
+        width: 63px;
+    }
+
+    .cosmetics-cream-hands {
+        width: 103px;
+    }
+
+    .set-describtion {
+        padding-top: 27px;
+    }
+
+    .headband {
+        padding: 40px 77px 110px 78px;
+        background: #C4C4C4;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        margin-top: 22px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/rectangle.svg);
+            background-repeat: no-repeat;
+            width: 63.09px;
+            height: 126.09px;
+            top: 102px;
+            left: 22px;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url(../img/rectangle.svg);
+            background-repeat: no-repeat;
+            width: 63.09px;
+            height: 126.09px;
+            top: 102px;
+            left: 235px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+    }
+
+    .headband-subtitle {
+        line-height: 140%;
+        color: #000000;
+        margin: 0px;
+        padding: 67px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .picture {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 46px;
+        line-height: 140%;
+        color: #000000;
+        margin: 0px;
+    }
+
+    .cosmetics-picture {
+        background: #fff;
+        padding: 19px 14px 19px 15px;
+    }
+
+    .cosmetics-picture .picture {
+        font-size: 35px;
+    }
+
+    .sets .swiper-button-next {
+        height: 0px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .sets .swiper-button-prev {
+        height: 0px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .swiper-next {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/ArrowLeft.svg);
+            background-repeat: no-repeat;
+            width: 24px;
+            height: 24px;
+            top: 14px;
+            left: -19px;
+        }
+    }
+
+    .swiper-prev {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/ArrowLeft.svg);
+            background-repeat: no-repeat;
+            width: 24px;
+            height: 24px;
+            top: 14px;
+            left: 17px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+    }
+
+    .set-assortment {
+        font-family: 'Lora';
+        font-size: 18px;
+        line-height: 140%;
+        color: #261D1D;
+        text-align: left;
+        padding: 8px 0px 0px 4px;
+    }
+
+    .other-buy {
+        background: #CEAD66;
+        padding: 15px 30px;
+    }
+
+    .other-detail {
+        border: 1px solid #fff;
+        padding: 15px 25px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 993px) {
+    .set-number {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        color: #9A711A;
+    }
+
+    .set-title {
+        font-family: 'Lora';
+        font-size: 27px;
+        line-height: 140%;
+        color: #261D1D;
+    }
+
+    .set-depiction {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 140%;
+        color: #261D1D;
+        width: 596px;
+        padding: 23px 0px 0px 0px;
+    }
+
+    .set-assortment {
+        font-family: 'Lora';
+        font-size: 20px;
+        line-height: 140%;
+        color: #261D1D;
+        padding: 11px 0px 0px 0px;
+    }
+
+    .picture {
+        font-family: 'Lora';
+        font-weight: 500;
+        font-size: 32.4098px;
+        line-height: 140%;
+        color: #000000;
+
+    }
+
+    .makeup-care {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 120%;
+        color: #000000;
+    }
+
+    .other-buy {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        background: #CEAD66;
+        padding: 15px 30px;
+        margin: 0px 8px 0px 3px;
+
+        &:hover {
+            background: #fff;
+            color: #CEAD66;
+        }
+    }
+
+    .other-detail {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 140%;
+        color: #9A711A;
+        border: 1px solid #fff;
+        padding: 15px 25px;
+
+        &:hover {
+            background-color: #50C8D8;
+            color: #fff;
+            border: 1px solid #50C8D8;
+        }
+    }
+
+    .price-value {
+        font-family: 'Lora';
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 140%;
+        color: #261D1D;
+    }
+
+    .cosmetics {
+        display: flex;
+        padding: 6px 0px 0px 0px;
+    }
+
+    .headband {
+        background: #C4C4C4;
+        border: 34px solid rgba(255, 255, 255, 0.1);
+        margin: 56px 0px 0px 51px;
+    }
+
+    .sets {
+        background: linear-gradient(270.82deg, #F8F1E3 28.29%, #CEAD66 171.95%), #CEAD66;
+    }
+
+    .sets .swiper-slide {
+        background: linear-gradient(270.82deg, #F8F1E3 28.29%, #CEAD66 171.95%), #CEAD66;
+        align-items: flex-start;
+    }
+
+    .wrap {
+        position: relative;
+
+        &::before {
+            content: 'НАБОРЫ';
+            position: absolute;
+            font-family: 'Lora';
+            font-weight: 500;
+            font-size: 154px;
+            line-height: 120%;
+            color: rgba(248, 241, 227, 0.5);
+            top: -133px;
+            left: 243px;
+        }
+    }
+
+    .assortment {
+        margin: 173px 0px 0px 0px;
+    }
+
+    .set-describtion {
+        text-align: left;
+    }
+
+    .set-describtion p {
+        margin: 0;
+    }
+
+    .set {
+        padding: 51px 0px 0px 62px;
+    }
+
+    .picture-bg {
+        background: #fff;
+        padding: 12px 12px 17px 25px;
+        margin: 0px;
+    }
+
+    .headband-subtitle {
+        padding: 65px 35px 82px 34px;
+
+    }
+
+    .cosmetics-picture {
+        padding: 0px 10px 0px 0px;
+    }
+
+    .more {
+        display: flex;
+        flex-flow: row-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        /* flex-flow: column wrap; */
+        justify-content: center;
+    }
+
+    .priсe {
+        padding: 0px 0px 0px 45px;
+    }
+
+    .sets .swiper-button-next {
+        top: 45%;
+    }
+
+    .sets .swiper-button-prev {
+        top: 45%;
+    }
+
+
+    .cosmetics-item {
+        opacity: 0.7;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+}
+
+@media (min-width:$desktop-width) {
+    .wrap {
+        &::before {
+            top: -133px;
+            left: 458px;
+        }
+    }
+
+    .set-title {
+        font-size: 30px;
+    }
+
+    .set-depiction {
+        font-size: 18px;
+    }
+
+    .cosmetics-cream {
+        width: 169px;
+    }
+
+    .cosmetics-mask {
+        width: 156px;
+    }
+
+    .cosmetics-cream-hands {
+        width: 140px;
+    }
+
+    .cosmetics-scrub {
+        width: 151px;
+    }
+
+}

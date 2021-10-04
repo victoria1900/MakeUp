@@ -1,0 +1,315 @@
+@media (max-width:$tablet-width) {
+    .title {
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 140%;
+        color: #261D1D;
+        padding-left: 3px;
+    }
+
+    .subtitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 143%;
+        color: #000000;
+        padding-top: 3px;
+    }
+
+    .item {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        color: #261D1D;
+        text-align: center;
+    }
+
+    .beauty-subtitle {
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        color: #000000;
+        width: 313px;
+    }
+
+    .beauty-cosmetics {
+        padding: 19px 0px 0px 0px;
+    }
+
+    .advantages {
+        padding: 38px 0px 0px 0px;
+    }
+
+    .advantages-items {
+        padding: 19px 0px 0px 0px;
+    }
+
+    .bio-img {
+        margin-left: 105px;
+    }
+
+    .bio-subtitle {
+        width: 289px;
+    }
+
+    .bio {
+        padding-left: 14px;
+    }
+
+    .elements {
+        padding: 0px 0px 0px 5px;
+    }
+
+    .cross-img {
+        margin-left: 118px;
+    }
+
+    .cross {
+        padding: 27px 0px 0px 0px;
+    }
+
+    .gmo {
+        padding: 0px 0px 0px 13px;
+    }
+
+    .gmo-img {
+        margin: 26px 0px 0px 107px;
+    }
+
+    .gmo-subtitle {
+        width: 265px;
+        padding: 0px 0px 0px 19px;
+    }
+
+    .treatment-img {
+        margin: 27px 0px 0px 120px;
+    }
+
+    .treatment-subtitle {
+        padding: 11px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .medal {
+        padding: 38px 0px 0px 0px;
+    }
+
+    .medal-img {
+        margin: 2px 0px 0px 120px;
+    }
+
+    .medal-subtitle {
+        padding: 12px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .crown {
+        padding: 37px 0px 0px 0px;
+    }
+
+    .crown-img {
+        margin: 4px 0px 0px 121px;
+    }
+
+    .crown-subtitle {
+        padding: 10px 0px 0px 0px;
+        margin: 0px;
+    }
+
+}
+
+@media (min-width: 993px) {
+
+    .title {
+        font-family: 'Lora';
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 140%;
+        color: #261D1D;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #000000;
+        width: 884px;
+        padding: 9px 0px 0px 24px;
+    }
+
+    .item {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 140%;
+        text-align: center;
+        color: #261D1D;
+    }
+
+    .beauty-subtitle {
+        font-family: 'Lora';
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+        color: #000000;
+        width: 909px;
+    }
+
+    .advantages-items {
+        background-image: url(../img/union-desktop.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 37px 0px 104px 5px;
+        margin: 52px 0px 0px 0px;
+    }
+
+    .elements {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bio-subtitle {
+        width: 225px;
+    }
+
+    .cross-subtitle {
+        width: 205px;
+    }
+
+    .crown-subtitle {
+        width: 300px;
+    }
+
+    .medal-subtitle {
+        width: 247px;
+    }
+
+    .treatment-subtitle {
+        width: 275px;
+    }
+
+    .gmo-subtitle {
+        padding: 0px 0px 0px 25px;
+        width: 288px;
+    }
+
+    .advantages {
+        padding: 58px 0px 0px 0px;
+    }
+
+    .bio-img {
+        margin: 0px 0px 0px 71px;
+    }
+
+    .cross {
+        padding: 0px 0px 0px 100px;
+    }
+
+    .cross-img {
+        margin: 0px 0px 0px 72px;
+    }
+
+    .gmo {
+        padding: 0px 0px 0px 67px;
+    }
+
+    .gmo-img {
+        margin: 0px 0px 0px 118px;
+    }
+
+    .treatment {
+        padding: 0px 0px 0px 131px;
+    }
+
+    .treatment-img {
+        margin: 0px 0px 0px 104px;
+    }
+
+    .medal {
+        padding: 0px 0px 0px 65px;
+    }
+
+    .medal-img {
+        margin: 0px 0px 0px 84px;
+    }
+
+    .crown {
+        padding: 0px 0px 0px 281px;
+    }
+
+    .crown-img {
+        margin: 0px 0px 0px 111px;
+    }
+
+    .beauty-cosmetics {
+        padding: 34px 0px 0px 0px;
+    }
+
+}
+
+@media (min-width:$desktop-width) {
+    .advantages {
+        padding: 125px 0px 0px 0px;
+    }
+
+    .title {
+        font-size: 46px;
+    }
+
+    .subtitle {
+        width: 1110px;
+        padding: 9px 0px 0px 209px;
+        font-size: 25px;
+    }
+
+    .item {
+        font-size: 16px;
+    }
+
+    .advantages-items {
+        padding: 137px 0px 167px 71px;
+        margin: 111px 0px 0px 0px;
+    }
+
+    .cross {
+        padding: 0px 0px 0px 246px;
+    }
+
+    .gmo {
+        padding: 0px 0px 0px 217px;
+    }
+
+    .treatment {
+        padding: 0px 0px 0px 195px;
+    }
+
+    .medal {
+        padding: 0px 0px 0px 212px;
+    }
+
+    .crown {
+        padding: 0px 0px 0px 420px;
+    }
+
+    .beauty-cosmetics {
+        padding: 34px 0px 0px 189px;
+    }
+
+    .beauty-subtitle {
+        font-size: 25px;
+    }
+
+
+}

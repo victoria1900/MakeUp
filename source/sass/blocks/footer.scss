@@ -1,0 +1,256 @@
+@media (max-width:$tablet-width) {
+    .socials-wraper .link {
+        text-transform: none;
+    }
+
+    .socials-wraper .logo-link {
+        background: #EDEDED;
+        padding: 0px 14px 0px 17px;
+        padding: 6px 32px 6px 36px;
+    }
+
+    .us-title {
+        font-family: 'Montserrat';
+        font-size: 10px;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+
+    .footer {
+        margin-top: 71px;
+        padding: 0px 0px 38px 0px;
+    }
+
+    .footer-main {
+        background: #F8F1E3;
+    }
+
+    .footer-wraper {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .networks-list {
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 20px 0px 25px;
+    }
+
+    .socials-list li:last-child {
+        padding: 4px 7px 0px 8px;
+        border-radius: 49%;
+        background-color: #fff;
+    }
+
+    .socials-list li:first-child {
+        padding: 5px 7px 0px 8px;
+        border-radius: 49%;
+        background-color: #fff;
+    }
+
+    .socials-list li:nth-child(2) {
+        padding: 4px 7px 2px 5px;
+        border-radius: 49%;
+        background-color: #fff;
+    }
+
+    .socials-list li:nth-child(3) {
+        padding: 6px 8px 2px 8px;
+        border-radius: 49%;
+        background-color: #fff;
+    }
+
+    .socials-footer {
+        padding: 5px 58px 0px 29px;
+    }
+
+    .socials-list {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .us {
+        padding: 24px 0px 0px 52px;
+    }
+
+    .img-facebook,
+    .img-vk,
+    .img-insta,
+    .img-classmates {
+        fill: #9A711A;
+    }
+}
+
+@media (min-width: 993px) {
+    .logo-link {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 49.3889px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .footer .link {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #261D1D;
+    }
+
+    .us-title {
+        font-family: 'Montserrat';
+        font-size: 9px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #261D1D;
+    }
+
+    .footer {
+        background: #F8F1E3;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .socials-wraper,
+    .networks-list,
+    .socials-list {
+        display: flex;
+    }
+
+    .footer-main {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .footer-wraper {
+        padding: 30px 0px 0px 50px;
+    }
+
+    .networks {
+        padding: 0px 0px 0px 35px;
+    }
+
+    .socials-list li:first-child {
+        padding: 10px 11px 4px 12px;
+        border-radius: 49%;
+        background-color: #fff;
+    }
+
+    .socials-list li:nth-child(2) {
+        padding: 11px 10px 3px 7px;
+        border-radius: 49%;
+        background-color: #fff;
+    }
+
+    .socials-list li:nth-child(3) {
+        padding: 11px 10px 6px 10px;
+        border-radius: 49%;
+        background-color: #fff;
+    }
+
+    .socials-list li:last-child {
+        padding: 10px 8px 2px 11px;
+        border-radius: 49%;
+        background-color: #fff;
+    }
+
+    .socials-item {
+        margin: 0px 7px 0px 7px;
+    }
+
+    .socials-footer {
+        padding: 0px 0px 0px 43px;
+    }
+
+    .us {
+        padding: 15px 0px 0px 0px;
+    }
+
+    .img-facebook,
+    .img-vk,
+    .img-insta,
+    .img-classmates {
+        width: 25px;
+        height: 25px;
+        fill: #9A711A;
+    }
+
+    .img-facebook {
+        &:hover {
+            fill: #50C8D8;
+        }
+    }
+
+    .img-vk {
+        &:hover {
+            fill: #50C8D8;
+        }
+    }
+
+    .img-insta {
+        &:hover {
+            fill: #50C8D8;
+        }
+    }
+
+    .img-classmates {
+        &:hover {
+            fill: #50C8D8;
+        }
+    }
+
+
+}
+
+@media (min-width:$desktop-width) {
+    .footer-main {
+        padding: 150px 0px 0px 0px;
+    }
+
+    .logo-link {
+        font-size: 57px;
+    }
+
+    .footer-wraper {
+        padding: 30px 0px 0px 115px;
+    }
+
+    .footer .link {
+        font-size: 24px;
+    }
+
+    .networks {
+        padding: 17px 164px 0px 233px;
+    }
+
+    .us-title {
+        font-size: 15px;
+    }
+
+    .img-facebook,
+    .img-vk,
+    .img-insta,
+    .img-classmates {
+        width: 40px;
+        height: 40px;
+    }
+
+    .socials-list li:first-child {
+        padding: 16px 14px 11px 17px;
+    }
+
+    .socials-list li:nth-child(2) {
+        padding: 14px 15px 3px 14px;
+    }
+
+    .socials-list li:nth-child(3) {
+        padding: 15px 14px 7px 18px;
+    }
+
+    .socials-list li:last-child {
+        padding: 13px 13px 10px 15px;
+    }
+
+}

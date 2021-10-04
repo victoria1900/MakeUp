@@ -1,0 +1,23 @@
+
+  @font-face {
+    font-family: "Lora";
+    src: url("../fonts/Lora-Bold.woff2") format("woff2"),
+      url("../fonts/Lora-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Lora";
+    src: url("../fonts/Lora-Medium.woff2") format("woff2"),
+      url("../fonts/Lora-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat.woff2") format("woff2"),
+      url("../fonts/Montserrat.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }

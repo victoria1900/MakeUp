@@ -1,0 +1,144 @@
+@media (max-width:$tablet-width) {
+
+    .brand,
+    .description {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 144%;
+        color: #261D1D;
+    }
+
+    .description {
+        padding-top: 5px;
+    }
+
+    .features {
+        background-image: url(../img/quality-mobile.png);
+        background-repeat: no-repeat;
+        margin-top: 64px;
+    }
+
+    .swiper-container .swiper-button-next {
+        color: #cead66;
+    }
+
+    .swiper-container .swiper-button-prev {
+        color: #cead66;
+    }
+
+    .mySwiper .swiper-photo {
+        height: 275px;
+    }
+
+    .make-up {
+        width: 319px;
+        height: 188px;
+    }
+
+    .depiction {
+        padding-left: 18px;
+    }
+
+    .quality {
+        padding-top: 10px;
+    }
+
+    .pictures {
+        padding-top: 28px;
+    }
+}
+
+@media (min-width: 993px) {
+
+    .brand,
+    .description {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 140%;
+        color: #261D1D;
+    }
+
+    .features .make-up {
+        width: 409px;
+        height: 280px;
+    }
+
+    .features {
+        display: flex;
+        position: relative;
+        padding: 192px 0px 0px 0px;
+
+        &::before {
+            content: 'КАЧЕСТВО';
+            position: absolute;
+            font-family: 'Lora';
+            font-weight: 500;
+            font-size: 180px;
+            line-height: 120%;
+            color: rgba(248, 241, 227, 0.5);
+            top: 61px;
+            left: 14px;
+            z-index: -1;
+        }
+    }
+
+    .features .swiper-slide {
+        height: 280px;
+    }
+
+    .pictures {
+        text-align: center;
+        padding: 43px 0px 0px 36px;
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    .pictures .swiper-button-next {
+        &::after {
+            padding-right: 20px;
+        }
+    }
+
+    .pictures .swiper-button-prev {
+        &::after {
+            padding-left: 20px;
+        }
+    }
+
+    .swiper-container .swiper-button-next {
+        color: #cead66;
+    }
+
+    .swiper-container .swiper-button-prev {
+        color: #cead66;
+    }
+}
+
+@media (min-width:$desktop-width) {
+
+    .brand,
+    .description {
+        font-size: 25px;
+    }
+
+    .pictures {
+        padding: 43px 0px 0px 74px;
+    }
+
+    .features .make-up {
+        width: 623px;
+        height: 416px;
+    }
+
+    .swiper-scrollbar {
+        display: none;
+    }
+
+    .pictures .swiper-button-next {
+        top: 34%;
+    }
+
+    .pictures .swiper-button-prev {
+        top: 34%;
+    }
+}

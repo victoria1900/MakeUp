@@ -1,0 +1,210 @@
+@media (max-width:$tablet-width) {
+    .makeup-title {
+        font-family: Lora;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 140%;
+        text-align: center;
+        color: #261D1D;
+        margin: 0px;
+        padding: 21px 0px 0px 73px;
+        width: 242px;
+    }
+
+    .makeup-subtitle {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 140%;
+        color: #50C8D8;
+        text-transform: lowercase;
+    }
+
+    .--big {
+        display: none;
+    }
+
+    .photos-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px 0px 0px 0px;
+        justify-content: space-evenly;
+    }
+
+    .makeup-bg {
+        padding: 0px 18px 24px 0px;
+        margin-top: 40px;
+    }
+
+    .makeup-main {
+        background: #F8F1E3;
+    }
+
+    .makeup {
+        padding: 25px 0px 0px 0px;
+    }
+
+    .insta-link {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/insta.svg);
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+            top: 0px;
+            left: 0px;
+        }
+    }
+
+    .makeup-line {
+        border: 3px solid #FFFFFF;
+        margin: 0px 6px 0px 24px;
+        padding: 0px 0px 24px 0px;
+    }
+
+    .--small {
+        padding: 8px 0px 0px 0px;
+    }
+
+    .makeup-social {
+        padding: 9px 0px 0px 0px;
+    }
+
+    .insta {
+        padding: 0px 0px 0px 143px;
+    }
+
+    .makeup-name {
+        padding: 41px 0px 0px 92px;
+    }
+}
+
+@media (min-width: 993px) {
+    .makeup-title {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 140%;
+        color: #261D1D;
+    }
+
+    .makeup-subtitle {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 140%;
+        color: #50C8D8;
+    }
+
+    .--small {
+        display: none;
+    }
+
+    .list-item img:hover {
+        transform: scale(1.2);
+    }
+
+    .photos-list {
+        display: flex;
+    }
+
+    .makeup-bg {
+        background: #F8F1E3;
+        margin-top: 50px;
+        padding: 38px 31px 39px 13px;
+    }
+
+    .makeup-line {
+        border: 3px solid #FFFFFF;
+        margin: 0px 6px 0px 24px;
+        padding: 0px 0px 24px 0px;
+    }
+
+    .insta-link {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/insta.svg);
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+            top: 6px;
+            left: 0px;
+        }
+
+    }
+
+    .insta-link:hover::before {
+        opacity: 0.7;
+    }
+
+    .insta,
+    .makeup-name {
+        text-align: center;
+    }
+
+    .insta {
+        padding: 0px 0px 0px 63px;
+    }
+
+    .list-item {
+        padding: 0px 24px 0px 4px;
+    }
+
+    .makeup-insta {
+        padding: 0px 0px 0px 39px;
+    }
+
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .makeup-social {
+        padding: 29px 0px 0px 266px;
+    }
+
+    .makeup-name {
+        padding: 0px 0px 0px 382px;
+    }
+
+}
+
+@media (min-width:$desktop-width) {
+    .makeup-bg {
+        margin-top: 85px;
+    }
+
+    .makeup-title {
+        font-size: 46px;
+    }
+
+    .makeup-img {
+        width: 300px;
+    }
+
+    .--big img {
+        width: 300px;
+    }
+
+    .insta-link {
+        &::before {
+            top: 7px;
+        }
+
+    }
+
+    .makeup-name {
+        padding: 0px 0px 0px 1084px;
+    }
+
+    .insta {
+        padding: 0px 0px 0px 732px;
+    }
+
+}

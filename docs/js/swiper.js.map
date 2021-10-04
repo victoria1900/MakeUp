@@ -1,0 +1,1 @@
+{"version":3,"file":"swiper.js","sources":["swiper.js"],"sourcesContent":["var swiper = new Swiper(\".swiper\", {\r\n    scrollbar: {\r\n      el: \".swiper-scrollbar\",\r\n      hide: true,\r\n    },\r\n  });"],"names":["swiper","Swiper","scrollbar","el","hide"],"mappings":"AAAA,IAAIA,OAAS,IAAIC,OAAO,UAAW,CAC/BC,UAAW,CACTC,GAAI,oBACJC,MAAM"}

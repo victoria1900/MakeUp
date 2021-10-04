@@ -1,0 +1,194 @@
+@media (max-width:$tablet-width) {
+    .reviews-subtitle {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 140%;
+        margin: 0px;
+    }
+
+    .data {
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 140%;
+        text-transform: uppercase;
+        text-align: left;
+        padding: 28px 0px 0px 26px;
+        margin: 0px;
+    }
+
+    .person {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 140%;
+        margin: 0px;
+        padding: 5px 0px 0px 26px;
+        text-align: left;
+    }
+
+    .review-text {
+        font-family: 'Montserrat';
+        font-size: 13px;
+        line-height: 140%;
+        width: 225px;
+        text-align: left;
+        padding: 2px 0px 0px 26px;
+    }
+
+    .rating .checked {
+        color: #50C8D8;
+    }
+
+    .rating {
+        text-align: left;
+        padding: 6px 0px 0px 25px;
+    }
+
+    .fa-star {
+        color: #FAEAC9;
+    }
+
+    .all-reviews .swiper-button-next {
+        display: none;
+    }
+
+    .all-reviews .swiper-button-prev {
+        display: none;
+    }
+
+    .all-reviews .swiper-scrollbar {
+        display: none;
+    }
+
+    .all-reviews .slide-wraper {
+        background: #FFFFFF;
+        box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+        padding: 15px 25px 23px 1px;
+    }
+
+    .clients-wraper {
+        padding: 37px 0px 0px 0px;
+        position: relative;
+
+        &::before {
+            content: 'КЛИЕНТЫ';
+            position: absolute;
+            font-family: 'Lora';
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 120%;
+            color: rgba(248, 241, 227, 0.5);
+            top: 39px;
+            left: 33px;
+            z-index: -1;
+        }
+    }
+
+    .reviews {
+        padding: 30px 0px 0px 33px;
+    }
+
+    .all-reviews .swiper-slide {
+        width: 360px;
+        justify-content: normal;
+        padding: 0px 0px 0px 26px;
+    }
+
+
+}
+
+@media (min-width: 993px) {
+    .reviews-subtitle {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 140%;
+        color: #261D1D;
+        text-align: center;
+    }
+
+    .data {
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #261D1D;
+        text-align: left;
+    }
+
+    .person {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 140%;
+        color: #261D1D;
+        text-align: left;
+    }
+
+    .review-text {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 140%;
+        color: #261D1D;
+        text-align: left;
+        width: 359px;
+    }
+
+    .rating .checked {
+        color: #50C8D8;
+    }
+
+    .fa-star {
+        color: #FAEAC9;
+    }
+
+    .clients-wraper {
+        position: relative;
+
+        &::before {
+            content: 'КЛИЕНТЫ';
+            position: absolute;
+            font-family: 'Lora';
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 120%;
+            color: rgba(248, 241, 227, 0.5);
+            top: 2px;
+            left: 106px;
+            z-index: -1;
+            font-size: 140px;
+        }
+
+    }
+
+    .rating {
+        text-align: left;
+    }
+
+    .all-reviews .slide-wraper {
+        background: #FFFFFF;
+        box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+        padding: 0px 0px 0px 36px;
+    }
+
+    .all-reviews .swiper-wrapper {
+        padding: 0px 0px 43px;
+    }
+
+    .clients {
+        padding: 40px 0px 0px 0px;
+    }
+}
+
+@media (min-width:$desktop-width) {
+    .clients-wraper {
+        &::before {
+            left: 418px;
+        }
+
+    }
+
+}

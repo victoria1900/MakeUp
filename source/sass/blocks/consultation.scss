@@ -1,0 +1,134 @@
+@media (max-width:$tablet-width) {
+    .necessity-question {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 120%;
+        text-align: center;
+        width: 248px;
+        padding: 4px 0px 0px 64px;
+    }
+
+    .number-question {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        margin: 0px;
+        width: 292px;
+        padding: 0px 0px 0px 59px;
+    }
+
+    .call-link {
+        font-family: 'Montserrat';
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #FFFFFF;
+        background: #CEAD66;
+        padding: 15px 30px;
+    }
+
+    .consultation {
+        margin-top: 67px;
+    }
+
+    .consultation-main {
+        background: #F8F1E3;
+    }
+
+    .ask-us {
+        border: 3px solid #FFFFFF;
+        box-sizing: border-box;
+        padding: 0px 0px 241px 0px;
+    }
+
+    .consultation-wraper {
+        padding: 21px 0px 32px 0px;
+    }
+
+    .call {
+        padding: 38px 0px 0px 58px;
+    }
+}
+
+
+@media (min-width: 993px) {
+    .necessity-question {
+        font-family: 'Lora';
+        font-weight: bold;
+        font-size: 53px;
+        line-height: 120%;
+        color: #261D1D;
+        text-align: left;
+        margin: 0px;
+        width: 320px;
+    }
+
+    .number-question {
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: left;
+        width: 429px;
+    }
+
+    .call-link {
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        background: #CEAD66;
+        text-align: left;
+        padding: 20px 59px;
+
+        &:hover {
+            background: #fff;
+            color: #CEAD66;
+        }
+    }
+
+    .consultation {
+        background: #F8F1E3;
+        padding: 0px 47px 0px 50px;
+        margin-top: 57px;
+    }
+
+    .ask-us {
+        border: 3px solid #FFFFFF;
+        padding: 63px 0px 90px 87px;
+    }
+
+    .consultation-wraper {
+        padding: 47px 0px 47px 0px;
+    }
+
+    .call {
+        padding: 36px 0px 0px 0px;
+    }
+
+}
+
+@media (min-width:$desktop-width) {
+    .consultation {
+        margin-top: 100px;
+    }
+
+    .necessity-question {
+        font-size: 59px;
+    }
+
+    .number-question {
+        font-size: 21px;
+    }
+
+    .call-link {
+        font-size: 20px;
+    }
+
+
+
+}

@@ -1,0 +1,2 @@
+var navMain=document.querySelector(".main-nav"),navList=document.querySelector(".list"),navToggle=document.querySelector(".main-nav__toggle");navMain.addEventListener("click",function(){navList.classList.contains("nav-closed")?(navList.classList.remove("nav-closed"),navList.classList.add("nav-opened")):(navList.classList.add("nav-closed"),navList.classList.remove("nav-opened"))});
+//# sourceMappingURL=nav.js.map
