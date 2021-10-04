@@ -316,7 +316,12 @@ body {
   font-size: 14px;
   line-height: 18px;
   font-family: "Proxima Nova", "Arial", sans-serif;
-  color: #111111; }
+  color: #111111;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -1648,6 +1653,9 @@ ul {
     color: #50C8D8; }
   .--small {
     display: none; }
+  .list-item img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
   .photos-list {
     display: -webkit-box;
     display: -ms-flexbox;
